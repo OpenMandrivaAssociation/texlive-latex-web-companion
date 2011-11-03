@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/examples/lwc
+# catalog-date 2006-06-10 21:35:51 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-latex-web-companion
 Version:	20060610
 Release:	1
@@ -362,6 +368,7 @@ necessary supporting files.
 %doc %{_texmfdistdir}/doc/latex/latex-web-companion/xmlstyle/wrong.xml
 %doc %{_texmfdistdir}/doc/latex/latex-web-companion/xmlstyle/xml.dcl
 %doc %{_texmfdistdir}/doc/latex/latex-web-companion/xmlstyle/xslexa1.xsl
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -372,3 +379,5 @@ necessary supporting files.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
