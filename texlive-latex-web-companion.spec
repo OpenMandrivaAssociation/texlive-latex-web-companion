@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-web-compani
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The source of the examples printed in the book, together with
@@ -368,7 +366,6 @@ necessary supporting files.
 %doc %{_texmfdistdir}/doc/latex/latex-web-companion/xmlstyle/wrong.xml
 %doc %{_texmfdistdir}/doc/latex/latex-web-companion/xmlstyle/xml.dcl
 %doc %{_texmfdistdir}/doc/latex/latex-web-companion/xmlstyle/xslexa1.xsl
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -379,5 +376,3 @@ necessary supporting files.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
