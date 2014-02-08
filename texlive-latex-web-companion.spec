@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-latex-web-companion
 Version:	20060610
-Release:	2
+Release:	3
 Summary:	Examples from The LaTeX Web Companion
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/lwc
