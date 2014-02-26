@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-latex-web-companion
 Version:	20120710
-Release:	5
+Release:	6
 Summary:	Examples from The LaTeX Web Companion
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/lwc
@@ -16,6 +16,8 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-web-compani
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+
+%define __noautoprov 'perl\\(.*'
 
 %description
 The source of the examples printed in the book, together with
