@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-latex-web-companion
-Version:	20120710
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Examples from The LaTeX Web Companion
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/lwc
