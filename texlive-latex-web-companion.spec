@@ -1,6 +1,6 @@
 Name:		texlive-latex-web-companion
 Version:	29349
-Release:	1
+Release:	2
 Summary:	Examples from The LaTeX Web Companion
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/lwc
