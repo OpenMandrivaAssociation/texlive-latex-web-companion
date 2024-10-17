@@ -3,7 +3,7 @@ Version:	29349
 Release:	2
 Summary:	Examples from The LaTeX Web Companion
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/examples/lwc
+URL:		https://www.ctan.org/tex-archive/info/examples/lwc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-web-companion.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-web-companion.doc.r%{version}.tar.xz
